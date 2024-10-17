@@ -9,8 +9,5 @@ request.error = function () {
     console.log("error", this)
 }
 
-request.open('GET', 'https://swapi.dev/api/people/1/' );
-
-request.send();
-
+ 
 
